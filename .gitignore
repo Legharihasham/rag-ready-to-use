@@ -1,0 +1,7 @@
+.env
+prompts_log.txt
+web_scraping.log
+__pycache__/
+embeddings/
+Planning/
+Data/
