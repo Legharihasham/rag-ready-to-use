@@ -1,7 +1,4 @@
-
-<p align="center">
-  <img src="images/Grain System Design.png" width="700" alt="Grain System Design">
-</p>
+![Grain System Design](images/Grain-System-Design.png)
 
 
 # University Assistant Chatbot
