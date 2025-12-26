@@ -1,3 +1,6 @@
+![Project Screenshot](F:\Projects\PythonProjects\BotApp-0.7-Enhanced_Natural\images\image.png)
+![System Design](![System Design](<images/Grain System Design.png>))
+
 # University Assistant Chatbot
 
 This is a custom chatbot for university students that provides accurate, precise, and comprehensive information about university procedures, fee structures, and other university-related information.
