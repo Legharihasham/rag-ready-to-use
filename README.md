@@ -43,6 +43,9 @@ Currently, it is on Streamlit and I am planning to shift it to my own custom web
    - Create a `.env` file with `GOOGLE_API_KEY=your_api_key_here`
    - Enter the API key in the `.env` file
 
+4. Create a `Data` folder in the parent directory and place the `Links.txt` file for website data
+   - Create a folder `PDF's` inside `Data` folder and place all your PDF's
+
 ## API Key Configuration
 
 This application uses the Google Gemini API key stored in a `.env` file. Follow these steps to set up your API key:
