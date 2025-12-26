@@ -1,5 +1,8 @@
-![Project Screenshot](F:\Projects\PythonProjects\BotApp-0.7-Enhanced_Natural\images\image.png)
-![System Design](![System Design](<images/Grain System Design.png>))
+
+<p align="center">
+  <img src="images/Grain System Design.png" width="700" alt="Grain System Design">
+</p>
+
 
 # University Assistant Chatbot
 
