@@ -1,6 +1,5 @@
 .env
-prompts_log.txt
-web_scraping.log
+logs/
 __pycache__/
 embeddings/
 Planning/
