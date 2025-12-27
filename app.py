@@ -332,36 +332,8 @@ if not st.session_state.messages:
     
     """) 
 
-def log_conversation(prompt=None, response=None, conversation_id=None, log_file="prompts_log.txt"):
-    """
-    Log prompts and responses in a clean, readable text format.
-    Returns conversation_id for linking prompt with its response.
-    """
-    if prompt:
-        conversation_id = str(uuid.uuid4())[:8]  # Short 8-char ID
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
-        with open(log_file, "a", encoding="utf-8") as f:
-            f.write("=" * 80 + "\n")
-            f.write(f"PROMPT ID: {conversation_id}\n")
-            f.write(f"TIMESTAMP: {timestamp}\n")
-            f.write("-" * 80 + "\n")
-            f.write(f"{prompt}\n")
-            f.write("=" * 80 + "\n\n")
-        
-        return conversation_id
-    
-    if response and conversation_id:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
-        with open(log_file, "a", encoding="utf-8") as f:
-            f.write("=" * 80 + "\n")
-            f.write(f"RESPONSE ID: {conversation_id}\n")
-            f.write(f"TIMESTAMP: {timestamp}\n")
-            f.write("-" * 80 + "\n")
-            f.write(f"{response}\n")
-            f.write("=" * 80 + "\n\n\n")
-
-# Usage:
-#conv_id = log_conversation(prompt)
-#log_conversation(response, conversation_id=conv_id)
+# capture the prompts and log in logs\prompt_logs.txt file:
+if prompt:
+    log_entry = f"{datetime.now().isoformat()} - {prompt}\n"
+    with open("logs/prompt_logs.txt", "a", encoding="utf-8") as log_file:
+        log_file.write(log_entry)

@@ -117,16 +117,17 @@ This will open a web interface where you can:
 
 ## Project Structure
 
+- `Backend\`: Directory containing all backend processing files
+   - `embeddings_manager.py`: Module for managing embeddings and FAISS index
+   - `gemini_api.py`: Module for interacting with Google's Gemini API
+   - `process_pdfs.py`: Script to process PDFs and web content, then generate embeddings
+   - `web_scraper.py`: Module for scraping and processing web content
 - `app.py`: Main Streamlit application
-- `process_pdfs.py`: Script to process PDFs and web content, then generate embeddings
 - `pdf_loader.py`: Module for loading and processing PDFs
-- `web_scraper.py`: Module for scraping and processing web content
-- `embeddings_manager.py`: Module for managing embeddings and FAISS index
-- `gemini_api.py`: Module for interacting with Google's Gemini API
 - `Data/`: Directory containing university documents and links
-  - `PDF's/`: General university documents
-  - `Fee_structure/`: Fee structure documents for different departments
-  - `Links.txt`: List of university website URLs to scrape
+   - `PDF's/`: General university documents
+   - `Fee_structure/`: Fee structure documents for different departments
+   - `Links.txt`: List of university website URLs to scrape
 
 ## Customization
 
