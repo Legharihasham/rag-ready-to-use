@@ -5,3 +5,6 @@ __pycache__/
 embeddings/
 Planning/
 Data/
+Venv/
+.venv/
+.venv313/

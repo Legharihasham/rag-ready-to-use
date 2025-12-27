@@ -1,5 +1,3 @@
-![Grain System Design](images/Grain-System-Design.png)
-
 
 # University Assistant Chatbot
 
@@ -24,7 +22,7 @@ Currently, it is on Streamlit and I am planning to shift it to my own custom web
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.12.0
 - Google Gemini API key (you can get one from [Google AI Studio](https://makersuite.google.com/app/apikey))
 
 ## Setup and Installation

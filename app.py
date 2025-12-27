@@ -190,7 +190,7 @@ with st.sidebar:
     This chatbot uses:
     - bge-base-en-v1.5 for embeddings
     - FAISS for similarity search
-    - Google's Gemini 1.5 Flash model for highly accurate responses
+    - Google's Gemini 2.5 Flash Lite model for highly accurate responses
     - Combined knowledge from PDFs and university website
     """)
     
