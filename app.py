@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 from dotenv import load_dotenv
-from embeddings_manager import EmbeddingsManager
-from gemini_api import GeminiAPI
+from Backend.embeddings_manager import EmbeddingsManager
+from Backend.gemini_api import GeminiAPI
 import uuid
 from datetime import datetime
 
