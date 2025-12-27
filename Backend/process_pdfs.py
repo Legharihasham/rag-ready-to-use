@@ -1,7 +1,7 @@
 import os
 from pdf_loader import process_pdf_directory
-from web_scraper import main as process_web_links
-from embeddings_manager import EmbeddingsManager
+from Backend.web_scraper import main as process_web_links
+from Backend.embeddings_manager import EmbeddingsManager
 
 def main():
     """
